@@ -43,13 +43,6 @@ Next steps involve:
 ### Identify and Fix Bugs:
 #### `Activity_Game.java`
 1. **Update Toast Messages:**
-
-   Change from :
-   ```java
-     Toast.makeText(this, "Survived in " + state, 1).show();
-     } else {
-     Toast.makeText(this, "You Failed ", 1).show();
-   ```
      
    To:
     ```java
@@ -58,13 +51,8 @@ Next steps involve:
     Toast.makeText(this, "You Failed ", Toast.LENGTH_SHORT).show();
    ```
    
-2. **Update Integer Parsing:**
-
-   Change:
-    ```java 
-      iArr[i] = Integer.valueOf(String.valueOf(id.charAt(i))).intValue() % 4;
-    ```
-
+3. **Update Integer Parsing:**
+ 
     To:
     ```java
         iArr[i] = Integer.parseInt(String.valueOf(id.charAt(i))) % 4;
