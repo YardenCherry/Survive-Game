@@ -100,3 +100,6 @@ Confirmed that the game mechanics function correctly and that the appropriate to
 ### Watch me: 
 
 
+https://github.com/YardenCherry/Survive-Game/assets/155112044/20abd434-e144-4f6f-89a9-3a7ce1a39764
+
+
