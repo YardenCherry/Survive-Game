@@ -51,12 +51,14 @@ Next steps involve:
     Toast.makeText(this, "You Failed ", Toast.LENGTH_SHORT).show();
    ```
    
-3. **Update Integer Parsing:**
+2. **Update Integer Parsing:**
  
     To:
     ```java
         iArr[i] = Integer.parseInt(String.valueOf(id.charAt(i))) % 4;
      ```
+3. **Fix the URL:**
+   to https://pastebin.com/raw/T67TVJG9
 
 
 ### Implementation of Required Adjustments:
